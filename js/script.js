@@ -55,7 +55,7 @@ playerOneButton.addEventListener("click", () => {
   if (data.playerOneScore >= 30) {
     const contentDiv = document.getElementById("content");
     const textNode = document.createTextNode(
-      "Player 1 Won the Game click the Rest button to start a new game"
+      "Player 1 Won the Game click the Reset button to start a new game"
     );
     contentDiv.appendChild(textNode);
     playerOneButton.classList.add("disabled");
@@ -71,7 +71,7 @@ playerTwoButton.addEventListener("click", () => {
   if (data.playerTwoScore >= 30) {
     const contentDiv = document.getElementById("content");
     const textNode = document.createTextNode(
-      "Player 2 Won the Game click the Rest button to start a new game"
+      "Player 2 Won the Game click the Reset button to start a new game"
     );
     contentDiv.appendChild(textNode);
     playerTwoButton.classList.add("disabled");
